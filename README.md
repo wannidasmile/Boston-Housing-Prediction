@@ -1,1 +1,2 @@
 # Boston-Housing-Prediction
+## This report explores Boston's dynamic real estate market through data analytics, aiming to accurately forecast residential property values. By applying regression and classification models, we uncover the complex relationships between property features, neighborhood factors, and socioeconomic indicators. Our findings highlight key drivers of valuation, model performance, and provide actionable insights to guide strategic investment and planning decisions in Boston's housing landscape.
