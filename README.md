@@ -7,4 +7,4 @@ The dataset was prepared for both regression and classification tasks. For regre
 ## Exploratory Data Analysis (EDA)
 The EDA highlighted trends in property characteristics across Boston. The average home had around 3 bedrooms, 1.7 full baths, and one kitchen. Most properties were remodeled around the year 2000, reflecting recent modernization trends. Graphs showed that neighborhoods like Boston and Dorchester had the highest property counts, while luxury properties skewed value distributions. Correlation analysis revealed that living area had the strongest relationship to total value (r = 0.49), while remodel year and total rooms had moderate correlations.
 ![EDA](https://github.com/wannidasmile/Boston-Housing-Prediction/blob/main/Screenshot%202025-04-19%20184932.png)
-![Pair Plot for Correlation Matrix]
+![Pair Plot for Correlation Matrix](https://github.com/wannidasmile/Boston-Housing-Prediction/blob/main/Picture2.png)
