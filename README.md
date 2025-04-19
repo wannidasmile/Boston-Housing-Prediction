@@ -20,3 +20,5 @@ Comparing models, Random Forest and XGBoost clearly outperformed Linear Regressi
 
 ## Conclusion and Recommendation
 This study demonstrates that ensemble models, particularly Random Forest and XGBoost, are highly effective for predicting Boston property values in both regression and classification tasks. These models consistently outperformed simpler approaches like Linear and Logistic Regression, showing higher accuracy, better error metrics, and greater ability to handle complex, non-linear relationships in the housing data. Key predictors identified across models include living area, total rooms, year of remodel, and crime grade, while school quality had minimal influence. Given their robustness and predictive strength, we recommend using Random Forest Regressor for estimating continuous property values and Random Forest or XGBoost Classifier for binary classification tasks, such as identifying high-value properties. These tools provide reliable insights that can support real estate investment, planning, and strategic decision-making.
+
+Authors: Kruayatidee Wannida, Shrestha Jarshana, Vorakamolpisit Methapat
