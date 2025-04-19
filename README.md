@@ -16,4 +16,4 @@ For classification tasks, all four models were tested to classify homes as high 
 
 ## Comparison
 Comparing models, Random Forest and XGBoost clearly outperformed Linear Regression in regression tasks, while also leading in classification with higher accuracy and AUC. In regression, XGBoost had the lowest error rates, but Random Forest had the highest R² (0.776). In classification, both ensemble models scored 82% accuracy and 0.91 AUC, with Decision Tree and Logistic Regression trailing slightly behind. These results highlight the superior performance of ensemble methods in handling diverse housing data.
-![ROC]
+![ROC](https://github.com/wannidasmile/Boston-Housing-Prediction/blob/main/roc.png)
