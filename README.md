@@ -12,7 +12,8 @@ The EDA highlighted trends in property characteristics across Boston. The averag
 ## Regression VS Classification Modelling
 Three regression models—XGBoost, Random Forest, and Linear Regression—were evaluated. XGBoost showed the best balance of low error (MAE ≈ $214,770) and high R² (0.71), followed closely by Random Forest (R² = 0.776). Linear Regression had the weakest performance (R² = 0.574), tending to underestimate or overestimate mid-to-high values. Feature importance analysis revealed that crime rate and living area were the strongest predictors, while school quality had surprisingly little impact on property value.
 For classification tasks, all four models were tested to classify homes as high or low value. Decision Tree and Logistic Regression showed fair accuracy (81% and 76% respectively), while Random Forest and XGBoost performed best with 82% accuracy and AUC scores of 0.91. Hyperparameter tuning slightly improved performance for all models. Feature importance analysis showed living area, year of remodel, and total rooms as top contributors, with crime rate and school quality having moderate influence.
+![DT](https://github.com/wannidasmile/Boston-Housing-Prediction/blob/main/decisiontree.png)
 
 ## Comparison
 Comparing models, Random Forest and XGBoost clearly outperformed Linear Regression in regression tasks, while also leading in classification with higher accuracy and AUC. In regression, XGBoost had the lowest error rates, but Random Forest had the highest R² (0.776). In classification, both ensemble models scored 82% accuracy and 0.91 AUC, with Decision Tree and Logistic Regression trailing slightly behind. These results highlight the superior performance of ensemble methods in handling diverse housing data.
-
+![ROC]
